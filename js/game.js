@@ -333,8 +333,8 @@ BasicGame.Boot.prototype =
         //     game.debug.body(tile, 'rgba(189, 221, 235, 0.6)', false);
         // });
        
-        //game.debug.text("FPS:" + game.time.fps || '--', 2, 14, "#a7aebe");
-        //game.debug.text(Phaser.VERSION, 2, game.world.height - 2, "#ffff00");
+        game.debug.text("FPS:" + game.time.fps || '--', 2, 14, "#a7aebe");
+        game.debug.text(Phaser.VERSION, 2, game.world.height - 2, "#ffff00");
     }
 };
 
